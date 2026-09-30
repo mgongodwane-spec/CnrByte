@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Builds and caches
+dist/
+build/
+coverage/
+.cache/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Temporary and secret files
+tmp/
+temp/
+*.pem
+*.key
+secrets/
